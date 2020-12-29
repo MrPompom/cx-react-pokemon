@@ -2,15 +2,10 @@ const argv = process.argv
 const express = require("express")
 const app = express();
 const pokedex = require('./routes/pokedex.json')
-
-app.listen(argv[2], function() {
+const PORT = process.argv[2]
+app.listen(PORT, function() {
     console.log(
-      "Server is listening on http://localhost:"+argv[2]
-    );
-  });
-
-  app.get("/", (req, res) => {
-    return res.json("acceuil, veuillez utilisez votre barre de recherche : /pokemons = pokedex, /pokemons/id pour faire uen recherche")
+      "Server is listening on http://localhost:4242");
   });
 
   app.get("/pokemons", (req, res) => {
