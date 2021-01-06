@@ -1,6 +1,4 @@
-
-
-.pokedex{
+body {
   background: url("https://static0.cbrimages.com/wordpress/wp-content/uploads/2020/02/Pokemon-Fire-Starters-Featured-Image.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover; 
@@ -8,14 +6,26 @@
   background-size: cover;
 }
 
-.pokemon-card{
-  background-color: darkred;
-  width: 250px;
-  height: 400px;
+.pokedex{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
 }
 
+.pokemon-card{
+  background-color: transparent;
+  width: 250px;
+  height: 400px;
+  margin: 10px;
+}
+
+.PokemonCard {
+  background-color: black;
+}
+
+
 .pokemon-card:hover{
-  background-color: rgb(238, 178, 13);
+  background-color: darkred;
 }
 
 .photo{
