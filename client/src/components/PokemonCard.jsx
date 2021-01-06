@@ -7,7 +7,7 @@ class PokemonCard extends Component {
         return (
             <button className="pokemon-card">
         <a href={pokeurl}>
-          <div>
+          <div className ="photo">
             <img src={url} alt="img-pokemon" />
             <h1>{this.props.id}</h1>
             <h1>{this.props.name}</h1>
