@@ -17,7 +17,6 @@ class Pokedex extends Component {
     }
 
     render() {
-        const image_url = 'https://assets.pokemon.com/assets/cms2/img/pokedex/detail/${this.numero}.png';
         return (
             <div className='pokedex'>
                 {this.state.pokemons.map((pokemon) => (
