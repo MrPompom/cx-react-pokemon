@@ -28,7 +28,7 @@ class  PokemonDetails extends Component {
         <p>Poids: {this.state.pokemon.poids}</p>
         <p>Types: {this.state.pokemon.type1} , {this.state.pokemon.type2}</p>
         <p>Formes: {this.state.pokemon.forme}</p>
-        <p>Attaques: {this.state.pokemon.attaques.map(attaque =><div key={}></div>)}</p>
+        
         
         </div>
         
