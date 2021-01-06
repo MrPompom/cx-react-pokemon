@@ -1,19 +1,21 @@
-import React, { Component } from 'react'
-
+import React, { Component, } from 'react'
+import {Link} from 'react-router-dom'
 class PokemonCard extends Component {
     render() {
         const url = `https://assets.pokemon.com/assets/cms2/img/pokedex/detail/${this.props.ndex}.png`;
-        const pokeurl = `./pokemon/${this.props.id}`;
+        
         return (
-            <button className="pokemon-card">
-        <a href={pokeurl}>
+           <Link to = {`/pokemon/${this.props.id}`}>
+            
+        
           <div>
             <img src={url} alt="img-pokemon" />
             <h1>{this.props.id}</h1>
             <h1>{this.props.name}</h1>
           </div>
-        </a>
-      </button>
+       
+      
+      </Link>
         )
     }
 }

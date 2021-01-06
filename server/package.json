@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "dev": "yarn nodemon"
+    "dev": "nodemon"
   },
   "devDependencies": {
     "nodemon": "^2.0.6"
