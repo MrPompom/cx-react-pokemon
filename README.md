@@ -1,6 +1,8 @@
 ## React Pokemon
 React pokemon is a pokedex on react.js
 
+https://user-images.githubusercontent.com/62659819/145609595-796f613c-2811-4c3e-b747-6974d4873379.mp4
+
 ## Installation
 You need to go in the forlders client and server to install the dependencies
 ```
